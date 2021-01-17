@@ -1,6 +1,6 @@
 console.log('utils.js');
 
-const name = 'gilibizy'
+const name = 'Generic Name'
 
 const add = function(a,b){
     return a+b
