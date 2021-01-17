@@ -1,0 +1,12 @@
+Hello, 
+my name is Alon Reznik, and i've build this small app .
+
+if you want to clone it, feel free..
+ 
+you should know that the configured cli commands are :
+
+'addNote' (noteTitle, noteBody)    : to add a new note .
+'saveNotes'                        : to save all notes .
+'removeNote' (noteTitle)           : to remove a specific note .
+'listNotes'                        : to list all saved notes .
+'readNote' (noteTitle)             : to read a specific note .

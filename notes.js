@@ -7,7 +7,7 @@ const addNote = (title , body) => {
     const notes = loadNotes()
     const duplicateNote = notes.find((note) => notes.title === title)
 
-    if (!duplicateNote === undefined) { 
+    if (duplicateNote === undefined) { 
         notes.push({
             title: title ,
             body: body
@@ -56,8 +56,7 @@ const readNote = (title) => {
         console.log(chalk.inverse(note.title))
         console.log(note.body)
     } else {
-        console.log(chalk.red.inverse('Note not found!'
-        ))
+        console.log(chalk.red.inverse('Note not found!'))
     }
 }
 

@@ -20,7 +20,7 @@ yargs.command({
     body:{
         describe: 'Note body',
         demandOption: true,
-        tyoe: 'string'
+        type: 'string'
     }
   },
   
@@ -77,3 +77,5 @@ yargs.command({
 yargs.parse();
 
 // console.log(yargs.argv);
+
+// node app.js add --title="aaa" --body="bbb"
