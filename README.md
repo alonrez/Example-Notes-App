@@ -7,7 +7,7 @@ if you want to clone it, feel free..
  
 you should know that the configured cli commands are :
 
-the configured cli commands are:      
+  
 'addNote' (args) : to add a new note . ||
 'saveNotes' : to save all notes . ||
 'removeNote' (args) : to remove a specific note . ||
